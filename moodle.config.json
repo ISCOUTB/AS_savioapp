@@ -1,6 +1,6 @@
 {
-    "app_id": "co.edu.utb.saviomobile",
-    "appname": "Savio Mobile",
+    "app_id": "co.edu.utb.savio",
+    "appname": "Savio",
     "versioncode": 51000,
     "versionname": "5.1.0",
     "cache_update_frequency_usually": 420000,
@@ -86,7 +86,7 @@
         "medium": 110,
         "high": 120
     },
-    "customurlscheme": "moodlemobile",
+    "customurlscheme": "saviomobile",
     "sites": [
         {
              "url": "http://saviotest.utb.edu.co"
@@ -105,7 +105,7 @@
     "showTopLogo": "hidden",
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
-        "android": "co.edu.utb.saviomobile",
+        "android": "co.edu.utb.savio",
         "ios": "id633359593"
     },
     "wsrequestqueuelimit": 10,

@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="51000" id="co.edu.utb.saviomobile" ios-CFBundleVersion="5.1.0.0" version="5.1.0" versionCode="51000" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Moodle</name>
-    <description>Moodle official app</description>
+<widget android-versionCode="51000" id="co.edu.utb.savio" ios-CFBundleVersion="5.1.0.0" version="5.1.0" versionCode="51000" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Savio</name>
+    <description>Savio UTB official app</description>
     <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
     <content src="index.html" />
     <access origin="*" />
@@ -82,6 +82,12 @@
             <uses-feature android:name="android.hardware.bluetooth" android:required="false" />
             <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
         </config-file>
+        <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
+        <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
+        <icon density="hdpi" src="resources/android/icon/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="resources/android/icon/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="resources/android/icon/drawable-xxxhdpi-icon.png" />
     </platform>
     <platform name="ios">
         <resource-file src="GoogleService-Info.plist" />
