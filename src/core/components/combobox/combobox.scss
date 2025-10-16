@@ -34,9 +34,9 @@
         --icon-margin: 0 4px;
 
         --background: var(--core-combobox-background);
-        --background-hover: var(--ion-text-color);
-        --background-activated: var(--ion-text-color);
-        --background-focused: var(--ion-text-color);
+        --background-hover: #{$verde-savio-hover};
+        --background-activated: #{$verde-savio-hover};
+        --background-focused: #{$verde-savio-hover};
         --background-hover-opacity: .04;
 
         &.md {
@@ -49,7 +49,7 @@
             --background-focused-opacity: .15;
         }
 
-        --border-color: #{$verde-savio-oscuro};
+        --border-color: var(--core-combobox-border-color);
         --border-style: solid;
         --border-width: var(--core-combobox-border-width);
         --border-radius: var(--core-combobox-radius);
@@ -100,17 +100,20 @@
         &::part(icon) {
             margin: var(--icon-margin);
             position: absolute;
+            color: var(--core-combobox-color);
             --highlight-color: currentColor;
             @include position(null, 8px, null, null);
         }
 
         &:hover {
-            --background: rgba(var(--ion-text-color-rgb), var(--background-hover-opacity));
+            --background: #{$verde-savio-hover};
+            --border-color: #{$verde-savio-oscuro};
         }
 
         &:focus:not(.ion-focused),
         &:focus-visible:not(.ion-focused) {
-            --background: rgba(var(--ion-text-color-rgb), var(--background-focused-opacity));
+            --background: #{$verde-savio-hover};
+            --border-color: #{$verde-savio-oscuro};
         }
 
         &.ion-focused {
@@ -121,7 +124,8 @@
         }
 
         &.ion-activated {
-            --background: rgba(var(--ion-text-color-rgb), var(--background-activated-opacity));
+            --background: #{$verde-savio-hover};
+            --border-color: #{$verde-savio-oscuro};
         }
     }
 
