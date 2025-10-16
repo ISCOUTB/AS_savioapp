@@ -2,7 +2,7 @@ ion-card {
     --border-width: var(--ion-card-border-width);
     --border-style: solid;
     --border-color: var(--ion-card-border-color);
-    --box-shadow: none;
+    --box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .18);;
     --border-radius: var(--ion-card-radius);
 
     box-shadow: var(--box-shadow);
@@ -11,6 +11,7 @@ ion-card {
     border-style: var(--border-style);
     border-color: var(--border-color);
     border-radius: var(--border-radius);
+    background: var(--gris-claro);
 
     &::part(native) {
         --border-width: 0;

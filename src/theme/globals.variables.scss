@@ -24,8 +24,8 @@ $green:       #357a32 !default;
 $red:         #ca3120 !default;
 $yellow:      #f0ad4e !default;
 
-$gris-claro: #f4f4f4;
-$gris-medio: #eeeeee;
+$gris-claro: #f7f7f7;
+$gris-medio: #CDCACB;
 $gris-oscuro: #bbbbbb;
 $verde-savio: #05a0a0;
 $verde-savio-oscuro: #048787;
@@ -46,12 +46,12 @@ $background-color-dark-rgb: color-to-rgb-list($background-color-dark) !default;
 
 $ion-item-background:      $white !default;
 $ion-item-background-rgb:  color-to-rgb-list($ion-item-background) !default;
-$ion-item-background-dark: $gray-900 !default;
+$ion-item-background-dark: $black !default;
 $ion-item-background-dark-rgb: color-to-rgb-list($ion-item-background-dark) !default;
 
 $primary:      $verde-savio !default;
 $primary-dark: $verde-savio !default;
-$secondary:    $gray-300 !default;
+$secondary:    $gris-medio !default;
 $danger:       $red !default;
 $warning:      $yellow !default;
 $success:      $green !default;

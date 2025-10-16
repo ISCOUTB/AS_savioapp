@@ -84,7 +84,7 @@
 
         --core-input-stroke: var(--gray-600);
         --core-input-text: var(--dark);
-        --core-input-background: var(--gray-900);
+        --core-input-background: #{$verde-savio-oscuro};
 
         ion-content {
             --background: var(--ion-background-color);

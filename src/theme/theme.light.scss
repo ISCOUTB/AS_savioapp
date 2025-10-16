@@ -86,7 +86,7 @@
 
     --core-input-stroke: var(--gray-500);
     --core-input-text: var(--dark);
-    --core-input-background: var(--ion-background-color);
+    --core-input-background: #{$verde-savio};
 
     --contrast-background: white;
 
@@ -157,7 +157,7 @@
     --ion-item-detail-icon-color: var(--dark);
     --core-more-icon: var(--ion-item-icon-color);
 
-    --item-divider-background: var(--ion-item-background);
+    --item-divider-background: var(--core-header-gradient);
     --item-divider-color: var(--text-color);
 
     --spacer-color: var(--gray-300);
