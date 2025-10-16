@@ -86,7 +86,7 @@
 
     --core-input-stroke: var(--gray-500);
     --core-input-text: var(--dark);
-    --core-input-background: #{$verde-savio};
+    --core-input-background: var(--ion-background-color);
 
     --contrast-background: white;
 
@@ -104,7 +104,7 @@
 
     --ion-placeholder-color: var(--subdued-text-color);
 
-    --core-bottom-tabs-background: var(--color-tabs-background);
+    --core-bottom-tabs-background: var(--white);
     --core-bottom-tabs-color: var(--ion-text-color-step-400);
     --core-bottom-tabs-color-selected: var(--dark);
     --core-bottom-tabs-background-selected: transparent;
@@ -113,9 +113,9 @@
     --core-bottom-tabs-border-color-active: var(--primary);
 
     // Change the links colors to white to be visible on the green header background.
-    --core-link-color: var(--white);
+    --core-link-color: var(--info);
 
-    --core-header-toolbar-background: var(--core-header-gradient);
+    --core-header-toolbar-background: var(--white);
     --core-header-toolbar-border-color: var(--stroke);
     --core-header-toolbar-color: var(--text-color);
     --core-header-buttons-background: transparent;
@@ -157,7 +157,7 @@
     --ion-item-detail-icon-color: var(--dark);
     --core-more-icon: var(--ion-item-icon-color);
 
-    --item-divider-background: var(--core-header-gradient);
+    --item-divider-background: var(--ion-item-background);
     --item-divider-color: var(--text-color);
 
     --spacer-color: var(--gray-300);

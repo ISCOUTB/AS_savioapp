@@ -34,9 +34,6 @@
 
     --ion-default-font: 'Noto Sans';
     --ion-font-family: var(--ion-default-font), sans-serif;
-    --color-tabs-background: #EBE7E8; // Color de fondo de las pestañas (tabs) en la parte inferior
-    // Gradient used for header background link the logo or "Vista general del curso" (AUN NO SE SI FUNCIONA AQUI O DONDE SE COLOCA PARA USARLO)
-    --core-header-gradient: linear-gradient(to bottom, #f4f4f4, #e5e5e5);
 }
 
 a {
@@ -66,7 +63,6 @@ a {
     font-weight: bold;
 }
 
-// COMO PUEDEN VER AQUI ESTAN USANDO TIPOGRAFIA, ENTONCES HAY QUE VER PARA CAMBIARLA
 // LA TIPOGRAFIA SE ESPECIFICA EN theme.design-system.scss
 .core-text-sm {
     font: var(--mdl-typography-body-font-sm);

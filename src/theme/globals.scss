@@ -8,5 +8,5 @@ $font-path: "../assets/fonts";
 $assets-path: "../assets";
 
 @import "./helpers/helpers";
-@import "./globals.custom";
 @import "./globals.variables";
+@import "./globals.custom";

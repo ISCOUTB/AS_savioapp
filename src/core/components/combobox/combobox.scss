@@ -49,7 +49,7 @@
             --background-focused-opacity: .15;
         }
 
-        --border-color: var(--core-combobox-border-color);
+        --border-color: #{$verde-savio-oscuro};
         --border-style: solid;
         --border-width: var(--core-combobox-border-width);
         --border-radius: var(--core-combobox-radius);
