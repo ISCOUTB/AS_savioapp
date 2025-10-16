@@ -149,7 +149,7 @@
 
         --core-combobox-background: var(--core-input-background);
         --core-combobox-color: var(--text-color);
-        --core-combobox-border-color: #{$verde-savio-oscuro};
+        --core-combobox-border-color: var(--core-input-stroke);
 
         --collapsible-toggle-text: var(--medium);
 
