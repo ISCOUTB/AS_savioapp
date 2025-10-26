@@ -102,7 +102,7 @@
     "enableonboarding": true,
     "forceColorScheme": "",
     "forceLoginLogo": false,
-    "showTopLogo": "hidden",
+    "showTopLogo": "true",
     "ioswebviewscheme": "moodleappfs",
     "appstores": {
         "android": "com.moodle.moodlemobile",
