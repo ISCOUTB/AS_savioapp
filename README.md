@@ -1,15 +1,42 @@
-Moodle App
-=================
+<p align="center">
+    <img src="https://github.com/ISCOUTB/AS_savioapp/blob/savio-app/src/assets/img/login_logo.png" height="100"/>
+</p>
 
-This is the primary repository of source code for the official mobile app for Moodle.
+# SAVIO App
+#### Versión adaptada (Fork) de [moodleapp](https://github.com/moodlehq/moodleapp) para la [Universidad Tecnológica de Bolívar (UTB)](https://www.utb.edu.co)
 
-* [User documentation](https://docs.moodle.org/en/Moodle_app)
-* [Developer documentation](https://moodledev.io/general/app)
-* [Development environment setup](https://moodledev.io/general/app/development/setup)
-* [Bug Tracker](https://moodle.atlassian.net/browse/MOBILE)
-* [Release Notes](https://moodledev.io/general/app_releases)
+> **Disponibilidad:**
+> Actualmente, La **app de SAVIO** está disponible **solo para dispositivos Android**.
+> La versión para iOS se encuentra en evaluación y no está aún disponible para descarga.
 
-This project is tested with BrowserStack.
+SAVIO es una aplicación móvil desarrollada a partir del código base de Moodle App, adaptada para incorporar la identidad institucional de la UTB y añadir funcionalidades específicas que optimizan la experiencia de aprendizaje y el acceso a recursos educativos digitales.
+
+La app de Savio trae consigo:
+* **Integración total con SAVIO web**: acceso directo a cursos, calificaciones, foros, tareas y recursos.
+* **Identidad institucional UTB**: colores, logotipo, tipografía y estilo visual coherente con la marca UTB.
+
+
+Instalación y configuración
+--------
+
+> Tener en cuenta el [Development environment setup](https://moodledev.io/general/app/development/setup) proporsionado por los desarrolladores de Moodle.
+
+1. Clonar el repositorio
+```bash
+git clone https://github.com/ISCOUTB/AS_savioapp
+cd AS_savioapp
+```
+
+2. Instalar dependencias
+```bash
+npm install
+```
+
+3. Compilar la app en producción
+```bash
+npm run prod:android
+```
+
 
 License
 -------
