@@ -24,10 +24,12 @@
     --item-divider-background: var(--core-header-gradient);
     --core-bottom-tabs-background: var(--color-tabs-background);
     --core-header-toolbar-background: var(--core-header-gradient);
-    --core-link-color: var(--white);
+    --core-link-color: #{$azul-savio-oscuro};
     --core-combobox-background:  #{$verde-savio};
     --core-combobox-border-color: #{$verde-savio-oscuro};
     --core-combobox-color: var(--white);
+
+    --ion-card-background: #{$gris-claro};
 }
 
 /*
@@ -35,10 +37,16 @@
  * -------------------------------------------
  */
 :root.dark {
-/*     --color-tabs-background: #EBE7E8; // Color de fondo de las pestañas (tabs) en la parte inferior
     --core-header-gradient: linear-gradient(to bottom, #f4f4f4, #e5e5e5);
-
+    --item-divider-background: #{$modo-oscuro};
+    --core-header-toolbar-background: #{$modo-oscuro};
     --core-bottom-tabs-background: var(--color-tabs-background);
-    --core-header-toolbar-background: var(--core-header-gradient); */
-    --core-link-color: var(--white);
+    --core-header-gradient: #{$modo-oscuro};
+    --core-combobox-background:  #{$verde-savio};
+    --core-combobox-border-color: #{$verde-savio-oscuro};
+    --core-combobox-color: var(--white);
+    --color-tabs-background: #{$modo-oscuro}; // Color de fondo de las pestañas (tabs) en la parte inferior
+    --core-link-color: #{$azul-savio};
+    --ion-card-background: #{$modo-oscuro-oscuro};
+    --core-tabs-background: #{$modo-oscuro};
 }
