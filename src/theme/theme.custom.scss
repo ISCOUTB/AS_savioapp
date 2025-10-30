@@ -28,8 +28,10 @@
     --core-combobox-background:  #{$verde-savio};
     --core-combobox-border-color: #{$verde-savio-oscuro};
     --core-combobox-color: var(--white);
+    --combobox-background-hover: #{$verde-savio-hover};
 
     --ion-card-background: #{$gris-claro};
+    --core-login-method-background: var(--white)
 }
 
 /*
@@ -42,11 +44,21 @@
     --core-header-toolbar-background: #{$modo-oscuro};
     --core-bottom-tabs-background: var(--color-tabs-background);
     --core-header-gradient: #{$modo-oscuro};
-    --core-combobox-background:  #{$verde-savio};
-    --core-combobox-border-color: #{$verde-savio-oscuro};
-    --core-combobox-color: var(--white);
+
     --color-tabs-background: #{$modo-oscuro}; // Color de fondo de las pestañas (tabs) en la parte inferior
     --core-link-color: #{$azul-savio};
     --ion-card-background: #{$modo-oscuro-oscuro};
     --core-tabs-background: #{$modo-oscuro};
+    --core-login-method-background: #{$modo-oscuro};
+
+    // Combobox
+    --core-combobox-background:  #{$verde-savio-oscuro};
+    --core-combobox-border-color: #{$verde-savio};
+    --combobox-background-hover: #{$verde-savio};
+    --core-combobox-color: var(--white);
 }
+
+ion-content.limited-width > :not([slot]) {
+    justify-content: center;
+}
+

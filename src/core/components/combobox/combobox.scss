@@ -34,9 +34,9 @@
         --icon-margin: 0 4px;
 
         --background: var(--core-combobox-background);
-        --background-hover: #{$verde-savio-hover};
-        --background-activated: #{$verde-savio-hover};
-        --background-focused: #{$verde-savio-hover};
+        --background-hover: var(--combobox-background-hover);
+        --background-activated: var(--combobox-background-hover);
+        --background-focused: var(--combobox-background-hover);
         --background-hover-opacity: .04;
 
         &.md {
@@ -106,13 +106,13 @@
         }
 
         &:hover {
-            --background: #{$verde-savio-hover};
+            --background: var(--combobox-background-hover);
             --border-color: #{$verde-savio-oscuro};
         }
 
         &:focus:not(.ion-focused),
         &:focus-visible:not(.ion-focused) {
-            --background: #{$verde-savio-hover};
+            --background: var(--combobox-background-hover);
             --border-color: #{$verde-savio-oscuro};
         }
 
@@ -124,7 +124,7 @@
         }
 
         &.ion-activated {
-            --background: #{$verde-savio-hover};
+            --background: var(--combobox-background-hover);
             --border-color: #{$verde-savio-oscuro};
         }
     }
