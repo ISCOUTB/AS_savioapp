@@ -19,7 +19,7 @@ La app de Savio trae consigo:
 Instalación y configuración
 --------
 
-> Tener en cuenta el [Development environment setup](https://moodledev.io/general/app/development/setup) proporsionado por los desarrolladores de Moodle.
+> Tener en cuenta el [Development environment setup](https://moodledev.io/general/app/development/setup) proporcionado por los desarrolladores de Moodle.
 
 1. Clonar el repositorio
 ```bash
